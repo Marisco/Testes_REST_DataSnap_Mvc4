@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2014/07/25 15:03:30.503,=C:\Users\camila\Desktop\SayHello\Delphi\FormUnit1.pas</Transaction>
+    <Transaction>2014/07/25 15:03:33.122,=C:\Users\camila\Desktop\SayHello\Delphi\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2014/07/25 15:03:35.535,=C:\Users\camila\Desktop\SayHello\Delphi\WebModuleUnit1.pas</Transaction>
+    <Transaction>2014/07/25 15:03:39.350,=C:\Users\camila\Desktop\SayHello\Delphi\js\base64.js</Transaction>
+    <Transaction>2014/07/25 15:03:39.372,=C:\Users\camila\Desktop\SayHello\Delphi\js\ServerFunctionExecutor.js</Transaction>
+    <Transaction>2014/07/25 15:03:39.424,=C:\Users\camila\Desktop\SayHello\Delphi\js\json2.js</Transaction>
+    <Transaction>2014/07/25 15:03:39.490,=C:\Users\camila\Desktop\SayHello\Delphi\js\CallbackFramework.js</Transaction>
+    <Transaction>2014/07/25 15:03:39.546,=C:\Users\camila\Desktop\SayHello\Delphi\js\ServerFunctions.js</Transaction>
+    <Transaction>2014/07/25 15:03:39.557,=C:\Users\camila\Desktop\SayHello\Delphi\js\base64-min.js</Transaction>
+    <Transaction>2014/07/25 15:03:39.585,=C:\Users\camila\Desktop\SayHello\Delphi\js\json2-min.js</Transaction>
+    <Transaction>2014/07/25 15:03:39.616,=C:\Users\camila\Desktop\SayHello\Delphi\js\ServerFunctionExecutor-min.js</Transaction>
+    <Transaction>2014/07/25 15:03:39.638,=C:\Users\camila\Desktop\SayHello\Delphi\js\CallbackFramework-min.js</Transaction>
+    <Transaction>2014/07/25 15:03:39.654,=C:\Users\camila\Desktop\SayHello\Delphi\js\connection.js</Transaction>
+    <Transaction>2014/07/25 15:03:39.673,=C:\Users\camila\Desktop\SayHello\Delphi\js\ServerFunctionInvoker.js</Transaction>
+    <Transaction>2014/07/25 15:03:39.706,=C:\Users\camila\Desktop\SayHello\Delphi\css\main.css</Transaction>
+    <Transaction>2014/07/25 15:03:39.710,=C:\Users\camila\Desktop\SayHello\Delphi\css\ServerFunctionInvoker.css</Transaction>
+    <Transaction>2014/07/25 15:03:39.717,=C:\Users\camila\Desktop\SayHello\Delphi\templates\ReverseString.html</Transaction>
+    <Transaction>2014/07/25 15:03:39.728,=C:\Users\camila\Desktop\SayHello\Delphi\templates\ServerFunctionInvoker.html</Transaction>
+    <Transaction>2014/07/25 15:03:39.737,=C:\Users\camila\Desktop\SayHello\Delphi\images\collapse.png</Transaction>
+    <Transaction>2014/07/25 15:03:39.743,=C:\Users\camila\Desktop\SayHello\Delphi\images\expand.png</Transaction>
+  </Transactions>
+</BorlandProject>

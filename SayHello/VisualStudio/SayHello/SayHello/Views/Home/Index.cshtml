@@ -1,0 +1,62 @@
+﻿		@{
+    ViewBag.Title = "REST - TDSServerModule";
+}
+<h2>REST Service - Consumindo TDSServerModule SayHelloProgram Delphi XE5</h2>
+<fieldset>
+    <legend>Imputar</legend>
+    <div>
+        <label>Nome:</label>
+        <input id="txtNome" type="text" placeholder="PRODAF" />
+    </div>
+</fieldset>
+<fieldset>
+    <legend>Resultados da Ações:</legend>
+    <div id="txtResultado" style="color: red"></div>
+</fieldset>
+<fieldset>
+    <legend>Ações Get Consummindo Rest Service - Delphi:</legend>
+    <br />
+    <button onclick="SayHello()">HELLO</button>
+</fieldset>
+
+<script type="text/javascript" lang="javascript">
+
+
+    function SayHello() {
+
+        alert("Início");
+        var usuario = CapturarElementos();
+        var json = JSON.stringify(usuario);
+        alert(json);
+        var url = '@Url.Action("SayHello", "Home")';
+        $("#divLoading").show();
+
+        $.ajax(
+            {
+                async: true,
+                url: url,
+                type: 'POST',
+                dataType: 'json',
+                data: json,
+                contentType: 'application/json; charset=utf-8',
+                success: function (data) {
+                    $("#txtResultado")[0].innerHTML = data;
+                    $("#divLoading").hide();
+                    alert(data);
+                }
+            }).done(function (result) {
+                alert("inicio done");
+                alert(result);
+
+
+
+            });
+    }
+
+    function CapturarElementos() {
+        var nome = document.getElementById("txtNome").value;
+        return (nome == "" ? null : { nome: nome })
+
+    }
+</script>
+
